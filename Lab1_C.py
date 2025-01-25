@@ -1,0 +1,8 @@
+Year1=int(input("Enter the year for date 1: "))
+Month1=int(input("Enter the month for date 1: "))
+Day1=int(input("Enter the day for date 1: "))
+Year2=int(input("Enter the year for date 2: "))
+Month2=int(input("Enter the month for date 2: "))
+Day2=int(input("Enter the day for date 2: "))
+Difference=abs((Year2*360+Month2*30+Day2)-(Year1*360+Month1*30+Day1))
+print(f"The difference between {Month1}/{Day1}/{Year1} and {Month2}/{Day2}/{Year2} is {Difference} days!")
